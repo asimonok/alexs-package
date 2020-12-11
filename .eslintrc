@@ -1,6 +1,9 @@
 {
+  "plugins": ["prettier"],
   "extends": ["eslint-config-airbnb-base"],
   "rules": {
-    "semi": ["error"]
+    "semi": ["error"],
+    "prettier/prettier": ["error"],
+    "implicit-arrow-linebreak": "off"
   }
 }
