@@ -1,6 +1,5 @@
-const _get = require('lodash/get')
+const get = require('lodash/get');
 
-const getSafeProperty = (propertiesArray) => (object) =>
-  _get(object, propertiesArray)
+const getSafeProperty = (propertiesArray) => (object) => get(object, propertiesArray);
 
-module.exports = getSafeProperty
+module.exports = getSafeProperty;
