@@ -1,7 +1,7 @@
 const getSafeProperty = require('./utils');
 
 const getName = getSafeProperty(['item', 'item', 'name']);
-// just comment
+// just comments
 
 module.exports = {
   getName,
